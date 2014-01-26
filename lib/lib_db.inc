@@ -10,8 +10,8 @@
 	class DB {
 
 		static $host = "localhost";
-		static $user = "root";
-		static $pass = "";
+		static $user = "admin";
+		static $pass = "admin123";
 		static $database = "switchmanager";
 
 		function __construct($host, $user, $pass) {
